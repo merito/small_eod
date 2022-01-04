@@ -3,7 +3,7 @@ version: '3.4'
 services:
   db:
     # https://hub.docker.com/_/postgres
-    image: postgres:12.6-alpine@sha256:b5c57d326a4cb8cf2fd5cdedc758ed72146a69304ae434b177088b94a7c9e6b8
+    image: postgres:14.1-alpine@sha256:578ca5c8452c08a4e0f5e65b55dce5e1812fe63c8fee40ea837641031598e51e
     expose:
       - "5432"
     ports:
